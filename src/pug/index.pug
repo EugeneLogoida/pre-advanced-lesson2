@@ -1,0 +1,87 @@
+extends common/layout
+
+block content
+    main.main 
+        section.works
+            .container
+                .row
+                .steps
+                    h2 How Dreamshare works?
+                    .steps__blocks
+                    .row
+                        .col-sm-4.special
+                            .steps__small
+                                .steps__small_red.button Step 1
+                                h3 Sed leo enim, condimentum
+                                p
+                                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+                        .col-sm-4.special
+                            .steps__small
+                                .steps__small_red.button Step 2
+                                h3 Morbi velit risus
+                                p
+                                | Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.
+                        .col-sm-4.special
+                            .steps__small
+                                .steps__small_red.button Step 3
+                                h3 Sed leo enim, condimentum
+                                p
+                                | Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.
+            section
+                .container
+                    .row
+                    .partners
+                        h2 Meet a partner for your best holiday
+                        .partners__people
+                            .row
+                                .col-lg-3.col-sm-4.offset-lg-0.order-lg-0.order-0.offset-sm-2.col-12.special2
+                                    .partners__profile-picture
+                                    h5 Bradley Hunter
+                                    p Based in Chicago. I love playing tennis and loud music.
+                                .col-lg-3.col-sm-4.col-12.offset-lg-0.offset-sm-2.order-lg-1.order-2.special2
+                                    .partners__profile-picture
+                                    h5 Marie Bennett
+                                    p Currently living in Colorado. Lover of art, languages and travelling.
+                                .col-lg-3.col-sm-4.order-lg-2.order-1.col-12.special2
+                                    .partners__profile-picture
+                                    h5 Diana Wells
+                                    p
+                                        | Living in Athens, Greece. I love black and white classics, chillout music and green tea.
+                                .col-lg-3.col-sm-4.col-12.order-lg-3.order-3.special2
+                                    .partners__profile-picture
+                                    h5 Christopher Pierce
+                                    p Star Wars fanatic. I have a persistent enthusiasm to create new things.
+                            input.button(type='button' value='See other partners' name='' id='')
+            section.discover
+                .container
+                    h2 Discover holiday activity ideas
+                    .row
+                        .col-sm-4.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Sports and Activis
+                        .col-sm-4.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Wellness and Health
+                        .col-sm-4.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Extreme Sports and Expeditions
+                        .col-sm-4.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Games
+                        .col-sm-8.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Culture and Education
+                        .col-sm-8.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Enjomet and Relaxation
+                        .col-sm-4.col-12.special3
+                            .discover__item.d-flex.justify-content-center.align-items-center
+                                h3 Travelling
+            section.activity
+                .container
+                    h2 Crate your holiday activity
+                    p Hi! What are your holiday interests?
+                    .row
+                        .col-lg-6.col-sm-8.d-flex.m-auto.activity__blocks
+                            input.activity__input(type='text' placeholder='Enter your insterests' name='' id='')
+                            input.activity__button.button(type='button' value='Search partners' name='' id='')
